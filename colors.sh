@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash
 #first line just indicates which sys is going to be running program (had to change it from sh to bash that was set as default for xcode - because the by putting /sh it wasn't working with my terminal (different variations of echo exists.. echo -n to remove the new line didn't exist)
 #can't have spaces for variables has to be var=thing, $(expr|variable)
 # tput = portable terminal control, allows us to get back status/info about terminal, set colors, clear the screen, etc - can be used for "drawing"
